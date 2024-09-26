@@ -13,7 +13,7 @@ CREATE TABLE post(
 
 @Entity
 @Table(name = "post")
-public class Post extends BaseEntity {
+public class Post {
     @Id
     @Column(name = "id")
     private Long id;

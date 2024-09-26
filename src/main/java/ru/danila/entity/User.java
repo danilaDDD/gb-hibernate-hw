@@ -10,7 +10,7 @@ CREATE TABLE user(id BIGINT PRIMARY KEY, name VARCHAR(50) NOT NULL);
 
 @Entity
 @Table(name = "user")
-public class User extends BaseEntity {
+public class User{
     @Id
     @Column(name = "id", nullable = false)
     private Long id;

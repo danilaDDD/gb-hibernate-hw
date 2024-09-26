@@ -16,7 +16,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "post_comment")
-public class PostComment extends BaseEntity {
+public class PostComment {
     @Id
     @Column(name = "id", nullable = false)
     private Long id;
